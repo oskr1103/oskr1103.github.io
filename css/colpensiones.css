@@ -1,1 +1,107 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400;1,700;1,900&family=Spartan:wght@100;300;400;500;600;700&display=swap");
+
+/* Botones destacado */
+/** Cambiar a top el margin */
+.botones_destacados {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  z-index: 10;
+  margin-left: 0;
+  padding-left: 0;
+}
+.botones_destacados > div {
+  z-index: 10;
+}
+.botones_destacados a {
+  text-decoration: none;
+}
+.botones_destacados-btn {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .botones_destacados-btn:hover i {
+        color: #fff;
+      } */
+.botones_destacados-btni {
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+  border-color: transparent;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.35);
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botones_destacados-btni img {
+  width: 50px;
+  height: 50px;
+}
+.botones_destacados-btni:hover {
+  background-color: #00993e;
+  transform: scale(1.1);
+}
+.botones_destacados-p {
+  font-family: "Montserrat", sans-serif;
+  width: 144px;
+  font-size: 1em;
+  font-weight: 600;
+  color: #999999;
+  text-align: center;
+  line-height: 1em;
+  margin: 10px auto 0;
+}
+.botones_destacados-p span {
+  font-size: 0.85em;
+  color: #999999;
+  line-height: 14px;
+  font-weight: 400;
+}
+.botones_destacados-p span::before {
+  content: "\A";
+  white-space: pre;
+}
+
+.botones_destacados-grandient1 {
+  background: transparent linear-gradient(270deg, #00993e 1%, #019741 100%) 0%
+    0% no-repeat padding-box;
+}
+.botones_destacados-grandient2 {
+  background: transparent linear-gradient(270deg, #04904c 1%, #08885a 100%) 0%
+    0% no-repeat padding-box;
+}
+.botones_destacados-grandient3 {
+  background: transparent linear-gradient(270deg, #0e7e6c 1%, #14747f 100%) 0%
+    0% no-repeat padding-box;
+}
+.botones_destacados-grandient4 {
+  background: transparent linear-gradient(270deg, #196a90 1%, #1f5da6 100%) 0%
+    0% no-repeat padding-box;
+}
+.botones_destacados-grandient5 {
+  background: transparent linear-gradient(270deg, #2453b6 1%, #2a48ca 100%) 0%
+    0% no-repeat padding-box;
+}
+.botones_destacados-grandient6 {
+  background: transparent linear-gradient(270deg, #2d44d2 1%, #2d44d2 100%) 0%
+    0% no-repeat padding-box;
+}
+/**media query */
+
+@media (max-width: 985px) {
+  .botones_destacados {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+}
+@media (max-width: 720px) {
+  .botones_destacados {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+}
