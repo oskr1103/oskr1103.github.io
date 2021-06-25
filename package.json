@@ -1,0 +1,14 @@
+{
+  "name": "framework-colpensiones",
+  "version": "1.0.0",
+  "description": "Estilos CSS colpensiones",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "author": "Colpensiones",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.1.0"
+  }
+}

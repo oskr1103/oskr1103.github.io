@@ -1,0 +1,220 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+/* Marcado code */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #000;
+  text-shadow: 0 1px #fff;
+  font-family: Consolas, Monaco, "Andale Mono", monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+@media print {
+  code[class*="language-"],
+  pre[class*="language-"] {
+    text-shadow: none;
+  }
+}
+pre[class*="language-"] {
+  padding: 0.3em 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  -webkit-box-shadow: 0.7em 0 #ff851b inset, 0px 0px 0px 1px #ddd inset;
+  box-shadow: 0.7em 0 #ff851b inset, 0px 0px 0px 1px #ddd inset;
+}
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  background: #f5f2f0;
+}
+:not(pre) > code[class*="language-"] {
+  padding: 0 0.2em;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  border: 1px solid #ddd;
+}
+
+/* Estilos Docs - Colores */
+
+.circulo__colores {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.azul-colpensiones {
+  background-color: #2e45d0;
+}
+
+.verde-colpensiones {
+  background-color: #00993e;
+}
+
+.rojo-canales {
+  background-color: #ed2446;
+}
+
+.gris-colpensiones {
+  background-color: #ebebeb;
+}
+
+/* Degradados */
+
+.verde-inicial {
+  background: transparent linear-gradient(270deg, #00993e 1%, #019741 100%) 0%
+    0% no-repeat padding-box;
+}
+.verde2 {
+  background: transparent linear-gradient(270deg, #04904c 1%, #08885a 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.verde-azul {
+  background: transparent linear-gradient(270deg, #0e7e6c 1%, #14747f 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.azul1 {
+  background: transparent linear-gradient(270deg, #196a90 1%, #1f5da6 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.azul2 {
+  background: transparent linear-gradient(270deg, #2453b6 1%, #2a48ca 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.azul3 {
+  background: transparent linear-gradient(270deg, #2453b6 1%, #2a48ca 100%) 0%
+    0% no-repeat padding-box;
+}
