@@ -117,39 +117,39 @@ code {
   font-family: "Monaco", "Menlo", courier, monospace;
 }
 pre {
-  background-color: #221a0f;
-  color: #fbebd4;
+  background-color: #2f1e2e;
+  color: #e7e9db;
 }
 pre .comment {
-  color: #a57a4c;
+  color: #776e71;
 }
 pre .variable.global,
 pre .variable.class,
 pre .variable.instance {
-  color: #dc3958;
+  color: #ef6155;
 }
 pre .constant.numeric,
 pre .constant.language,
 pre .constant.hex-color,
 pre .keyword.unit {
-  color: #f79a32;
+  color: #f99b15;
 }
 pre .constant,
 pre .entity,
 pre .entity.class,
 pre .support {
-  color: #f06431;
+  color: #fec418;
 }
 pre .constant.symbol,
 pre .string {
-  color: #889b4a;
+  color: #48b685;
 }
 pre .entity.function,
 pre .support.css-property,
 pre .selector {
-  color: #8ab1b0;
+  color: #06b6ef;
 }
 pre .keyword,
 pre .storage {
-  color: #98676a;
+  color: #815ba4;
 }
