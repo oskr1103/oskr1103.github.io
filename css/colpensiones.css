@@ -161,21 +161,26 @@
 .btn_services-cardHeader {
   width: 100%;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 0 5px 0 5px;
 }
 .btn_services-cardBody {
   padding: 10px 10px 0 10px;
 }
 .btn_services-cardBody p {
-  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #595959;
+  font-size: 16px;
+  font-weight: 400;
   text-align: center;
-  line-height: 15px;
+  line-height: 18px;
 }
 .btn_services-cardBody p span {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: #595959;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 }
 @media (max-width: 985px) {
   .btn_services-card {
@@ -215,6 +220,16 @@
   .btn_services-cardHeader img {
     width: 80px;
     text-align: center;
+  }
+  .btn_services-cardBody p {
+    font-size: 14px;
+  }
+  .btn_services-cardBody p span {
+    font-size: 14px;
+  }
+  .btn_services-cardHeader {
+    margin-bottom: 0;
+    padding: 0;
   }
 }
 

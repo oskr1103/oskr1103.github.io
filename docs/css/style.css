@@ -187,6 +187,9 @@ pre[class*="language-"] {
 .gris-colpensiones {
   background-color: #ebebeb;
 }
+.gris-oscuro-colpensiones {
+  background-color: #595959;
+}
 
 /* Degradados */
 
