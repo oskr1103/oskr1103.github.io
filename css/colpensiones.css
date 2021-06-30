@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400;1,700;1,900&family=Spartan:wght@100;300;400;500;600;700&display=swap");
 
 /* Botones destacado */
-/** Cambiar a top el margin */
 .botones_destacados {
   display: flex;
   justify-content: space-between;
@@ -21,6 +20,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 /* .botones_destacados-btn:hover i {
         color: #fff;
@@ -103,5 +103,220 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
+  }
+}
+
+/* botones a 3 Cards */
+.btn_3cards-container {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 772px) {
+  .btn_3cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px 0px;
+    grid-template-areas:
+      "card1-3btn"
+      "card2-3btn"
+      "card3-3btn";
+  }
+  .card1-3btn {
+    grid-area: card1-3btn;
+  }
+  .card2-3btn {
+    grid-area: card2-3btn;
+  }
+  .card3-3btn {
+    grid-area: card3-3btn;
+  }
+}
+/* Botones a 4 Cards */
+
+.btn_services {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_services-card {
+  margin: 0 50px 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 190px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 20px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.btn_services-card:hover {
+  transform: scale(1.09);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.btn_services-card a {
+  text-decoration: none;
+}
+.btn_services-cardHeader {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0 5px 0 5px;
+}
+.btn_services-cardBody {
+  padding: 10px 10px 0 10px;
+}
+.btn_services-cardBody p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 15px;
+}
+.btn_services-cardBody p span {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 15px;
+}
+@media (max-width: 985px) {
+  .btn_services-card {
+    margin: 0 50px 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 190px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 20px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  }
+  .btn_services-cardHeader {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 10px 0 10px;
+  }
+}
+@media (max-width: 772px) {
+  .btn_services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+  .btn_services-card {
+    padding: 0;
+    align-self: center;
+    justify-self: center;
+    width: 130px;
+    height: 160px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 20px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  }
+  .btn_services-cardHeader img {
+    width: 80px;
+    text-align: center;
+  }
+}
+
+/* Botones a 5 Cards */
+
+.btn_5cards-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_5cards-card {
+  margin: 0 15px 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 190px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 20px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.btn_5cards-card:hover {
+  transform: scale(1.09);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.btn_5cards-card a {
+  text-decoration: none;
+}
+
+@media (max-width: 985px) {
+  .btn_5cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px 15px;
+    grid-template-areas:
+      ". card1 card1 card2 card2 ."
+      ". card3 card3 card4 card4 ."
+      ". . card5 card5 . .";
+  }
+  .card1 {
+    grid-area: card1;
+  }
+  .card2 {
+    grid-area: card2;
+  }
+  .card3 {
+    grid-area: card3;
+  }
+  .card4 {
+    grid-area: card4;
+  }
+  .card5 {
+    grid-area: card5;
+  }
+  .btn_5cards-card {
+    margin: 0 50px 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 190px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 20px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  }
+}
+@media (max-width: 772px) {
+  .btn_5cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px 15px;
+    grid-template-areas:
+      ". card1 card1 card2 card2 ."
+      ". card3 card3 card4 card4 ."
+      ". . card5 card5 . .";
+  }
+  .card1 {
+    grid-area: card1;
+  }
+  .card2 {
+    grid-area: card2;
+  }
+  .card3 {
+    grid-area: card3;
+  }
+  .card4 {
+    grid-area: card4;
+  }
+  .card5 {
+    grid-area: card5;
+  }
+  .btn_5cards-card {
+    padding: 0;
+    align-self: center;
+    justify-self: center;
+    width: 130px;
+    height: 160px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 20px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
   }
 }

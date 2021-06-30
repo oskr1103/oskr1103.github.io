@@ -16,6 +16,13 @@
 
 
     <title>Colpensiones</title>
+    <style>
+      .subnav a{
+        color: white;
+        margin-right: 10px;
+      }
+
+    </style>
   </head>
   <body>
     <header>
@@ -37,7 +44,16 @@
             </button>
             <a class="navbar-brand" href="#">Colpensiones CSS - DOCS</a>
           </div>
+          <div class="navbar-text pull-right subnav">
+            <a href="#destacados">destacados</a>
+            <a href="#3cards">3 cards</a>
+            <a href="#4cards">4 cards</a>
+            <a href="#5cards">5 cards</a>
+          </div>
         </div>
+        
+
+
       </nav>
     </header>
 
@@ -56,11 +72,14 @@
           </ul>
         </div>
         <!-- contenido -->
+        <!-- botones destacados -->
         <section>
           <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
             <h1 class="page-header">Botones</h1>
-            <h3>Botones destacados</h3>
+            <h3 id="destacados">Botones destacados - <b> outdated </b></h3>
         <div class="container">
+
+          <!-- Btn- destacados -->
         <div class="botones_destacados" style="margin-top: 0px; "> <!-- Tener en cuenta ajustar el top en - para ajustar según diseño -->
           <div>
             <a alt="Pensiones y afiliaciones" class="botones_destacados-btn">
@@ -145,7 +164,8 @@
           
         </div>
         <pre><code data-language="css"> 
-             <div class="botones_destacados" style="margin-top: 0px; "> <!-- Tener en cuenta ajustar el top en - para ajustar según diseño -->
+          <!-- Tener en cuenta ajustar el margin-top en ( - ) para ajustar según diseño -->
+             <div class="botones_destacados" style="margin-top: 0px;">
           <div>
             <a alt="Pensiones y afiliaciones" class="botones_destacados-btn">
               <div
@@ -230,6 +250,299 @@
         </div>
         </code></pre>
       </div>
+
+
+<!-- Btn a 3 Cards -->
+      <h3 id="3cards">Botones  a 3 Cards</h3>
+      <div class="container">
+        <div class="btn_3cards-container">
+          <div class="btn_services-card card1-3btn">
+            <a href="">
+              <div class="btn_services-cardHeader">
+                <img src="../img/btn-cards/1.svg" alt="" />
+              </div>
+              <div class="btn_services-cardBody">
+                <p><span>Historia</span> Laboral</p>
+              </div>
+            </a>
+          </div>
+          <div class="btn_services-card card2-3btn">
+            <a href="">
+              <div class="btn_services-cardHeader">
+                <img src="../img/btn-cards/2.svg" alt="" />
+              </div>
+              <div class="btn_services-cardBody">
+                <p><span>Antifraude</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="btn_services-card card3-3btn">
+            <a href="">
+              <div class="btn_services-cardHeader">
+                <img src="../img/btn-cards/3.svg" alt="" />
+              </div>
+              <div class="btn_services-cardBody">
+                <p><span>Notificaciones</span> de Procesos Disciplinarios</p>
+              </div>
+            </a>
+          </div>        
+        </div>
+      </div>
+
+      <div class="container" style="margin-top: 50px;">
+      <pre><code data-language="css">
+        <div class="btn_3cards-container">
+          <div class="btn_services-card card1-3btn">
+            <a href="">
+              <div class="btn_services-cardHeader">
+                <img src="../img/btn-cards/1.svg" alt="" />
+              </div>
+              <div class="btn_services-cardBody">
+                <p><span>Historia</span> Laboral</p>
+              </div>
+            </a>
+          </div>
+          <div class="btn_services-card card2-3btn">
+            <a href="">
+              <div class="btn_services-cardHeader">
+                <img src="../img/btn-cards/2.svg" alt="" />
+              </div>
+              <div class="btn_services-cardBody">
+                <p><span>Antifraude</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="btn_services-card card3-3btn">
+            <a href="">
+              <div class="btn_services-cardHeader">
+                <img src="../img/btn-cards/3.svg" alt="" />
+              </div>
+              <div class="btn_services-cardBody">
+                <p><span>Notificaciones</span> de Procesos Disciplinarios</p>
+              </div>
+            </a>
+          </div>        
+        </div>
+      </code></pre>
+      </div>
+     
+
+
+
+
+<!-- Btn a 4 Cards -->
+      <h3 id="4cards">Botones  a 4 Cards</h3>
+      <div class="container">
+        <div class="btn_services">
+        <div class="btn_services-card">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/1.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Historia</span> Laboral</p>
+            </div>
+          </a>
+        </div>
+        <div class="btn_services-card">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/2.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Antifraude</span></p>
+            </div>
+          </a>
+        </div>
+        <div class="btn_services-card">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/3.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Notificaciones</span> de Procesos Disciplinarios</p>
+            </div>
+          </a>
+        </div>
+        <div class="btn_services-card">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/4.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Gobierno</span></p>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+      </div>
+      <div class="container" style="margin-top: 50px;">
+        <pre><code data-language="css">
+          <div class="btn_services">
+        <div class="btn_services-card">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/1.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Historia</span> Laboral</p>
+            </div>
+          </a>
+        </div>
+        <div class="btn_services-card">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/2.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Antifraude</span></p>
+            </div>
+          </a>
+        </div>
+        <div class="btn_services-card">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/3.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Notificaciones</span> de Procesos Disciplinarios</p>
+            </div>
+          </a>
+        </div>
+        <div class="btn_services-card">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/4.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Gobierno</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+        </code></pre>
+      </div>
+
+
+
+ <!-- btn a 5 cards -->
+ <h3 id="5cards">Botones  a 5 Cards</h3>
+ <p>Este componente se hablo con Diana y podemos reutilizar en las secciones donde se requiera para normalizar las 5 cards que existen hasta el momento en: </p>
+ <ul>
+   <li>Educación y Bienestar</li>
+   <li>BEPS</li>
+ </ul>
+      <div class="container">
+        <div class="btn_5cards-container">
+        <div class="btn_5cards-card card1">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/1.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Historia</span> Laboral</p>
+            </div>
+          </a>
+        </div>
+        <div class="btn_5cards-card card2">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/1.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Historia</span> Laboral</p>
+            </div>
+          </a>
+        </div>
+        <div class="btn_5cards-card card3">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/2.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Antifraude</span></p>
+            </div>
+          </a>
+        </div>
+        <div class="btn_5cards-card card4">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/3.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Notificaciones</span> de Procesos Disciplinarios</p>
+            </div>
+          </a>
+        </div>
+        <div class="btn_5cards-card card5">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/4.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Gobierno</span></p>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+      <div class="container" style="margin-top: 50px;">
+        <pre><code data-language="css">
+          <div class="btn_5cards-container">
+        <div class="btn_5cards-card card1">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/1.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Historia</span> Laboral</p>
+            </div>
+          </a>
+        </div>
+        <div class="btn_5cards-card card2">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/1.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Historia</span> Laboral</p>
+            </div>
+          </a>
+        </div>
+        <div class="btn_5cards-card card3">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/2.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Antifraude</span></p>
+            </div>
+          </a>
+        </div>
+        <div class="btn_5cards-card card4">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/3.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Notificaciones</span> de Procesos Disciplinarios</p>
+            </div>
+          </a>
+        </div>
+        <div class="btn_5cards-card card5">
+          <a href="">
+            <div class="btn_services-cardHeader">
+              <img src="../img/btn-cards/4.svg" alt="" />
+            </div>
+            <div class="btn_services-cardBody">
+              <p><span>Gobierno</span></p>
+            </div>
+          </a>
+        </div>
+        </code></pre>
+      </div>
+
 </div>
           </div>
           
@@ -237,7 +550,9 @@
         </section>
       </div>
     </div>
-<script src="./js/rainbow-custom.min.js"></script>
+    <script src="./js/rainbow-custom.min.js"></script>
+    <script src="./js/generic.js"></script>
+    <script src="./js/html.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
