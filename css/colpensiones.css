@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400;1,700;1,900&family=Spartan:wght@100;300;400;500;600;700&display=swap");
 
+body {
+  font-size: 18px !important;
+}
+
 /* Botones destacado */
 .botones_destacados {
   display: flex;
@@ -170,16 +174,16 @@
 .btn_services-cardBody p {
   font-family: "Montserrat", sans-serif;
   color: #595959;
-  font-size: 16px;
+  font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
-  line-height: 18px;
+  line-height: 1.5rem;
 }
 .btn_services-cardBody p span {
   font-family: "Montserrat", sans-serif;
   color: #595959;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.5rem;
   line-height: 20px;
 }
 @media (max-width: 985px) {
@@ -222,10 +226,10 @@
     text-align: center;
   }
   .btn_services-cardBody p {
-    font-size: 14px;
+    font-size: 1.3rem;
   }
   .btn_services-cardBody p span {
-    font-size: 14px;
+    font-size: 1.3rem;
   }
   .btn_services-cardHeader {
     margin-bottom: 0;
@@ -256,7 +260,8 @@
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
-.btn_5cards-card a {
+.btn_5cards-card a,
+.btn_5cards-container a {
   text-decoration: none;
 }
 
@@ -333,5 +338,54 @@
     background: #ffffff 0% 0% no-repeat padding-box;
     box-shadow: 0px 2px 20px 8px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+  }
+}
+
+/* Canales de contacto */
+.canalesContacto__h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #595959;
+  font-weight: 700;
+  text-align: center;
+  font-size: 5rem;
+  margin: 50px;
+}
+.canalesContacto__cards {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+.canalesContacto__cards a {
+  margin: 0 50px;
+  text-align: center;
+}
+.canalesContacto-cardBody {
+  font-family: "Montserrat", sans-serif;
+  color: #595959;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.canalesContacto-cardBody p span {
+  font-family: "Montserrat", sans-serif;
+  color: #595959;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 20px;
+}
+
+@media (max-width: 772px) {
+  .canalesContacto__h2 {
+    font-size: 3rem;
+  }
+  .canalesContacto-cardBody,
+  .canalesContacto-cardBody p span {
+    font-size: 1.2rem;
+  }
+  .canalesContacto__cards a {
+    margin: auto;
+    text-align: center;
   }
 }
