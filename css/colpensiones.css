@@ -382,10 +382,131 @@ body {
   }
   .canalesContacto-cardBody,
   .canalesContacto-cardBody p span {
+    margin-top: 10px;
     font-size: 1.2rem;
   }
   .canalesContacto__cards a {
     margin: auto;
     text-align: center;
   }
+}
+
+/* footer */
+.footer {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background-color: #3366cc;
+  padding: 5rem 0 5rem 0;
+}
+.footer__line-right {
+  border-right: solid 1px white;
+  height: 250px;
+}
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+.footer__logo img {
+  margin-bottom: 1em;
+}
+.footer__central {
+  color: white;
+}
+.footer__central h4,
+.footer__right h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+.footer__central p {
+  padding: 0;
+  margin: 0;
+  font-size: 0.7em;
+}
+.footer__central a {
+  text-decoration: underline;
+  color: white;
+}
+.footer__icon-circulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #3366cc;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.35);
+}
+.footer__redes-container {
+  margin: 2em 0 0 1px;
+}
+.footer__redes {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.footer__redes p {
+  padding-top: 7px;
+  padding-left: 7px;
+}
+
+.footer__right {
+  color: #ffffff;
+}
+
+.footer__right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.8em;
+}
+
+@media (max-width: 772px) {
+  .footer {
+    padding: 0 1em 1em 1em;
+    margin: 0;
+  }
+  .footer__logo {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .footer__logo img {
+    margin-bottom: 0;
+  }
+  .footer__line-right {
+    border-right: transparent;
+    height: 150px;
+  }
+  .footer__redes-container {
+    display: none;
+  }
+  .footer__right ul {
+    font-size: 0.7em;
+    padding: 0 2em 0 0;
+  }
+}
+
+/* footer separator */
+.footer__separator-blue {
+  height: 5px;
+  background-color: #2e45d0;
+}
+.footer__separator-green {
+  height: 5px;
+  background-color: #00993e;
+}
+.footer__separator-red {
+  height: 5px;
+  background-color: #ed2446;
 }

@@ -10,6 +10,7 @@
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
       crossorigin="anonymous"
     />
+    <script src="https://use.fontawesome.com/c12eea494d.js"></script>
     <link rel="stylesheet" href="../css/colpensiones.css" />
     <link rel="stylesheet" href="./css/style.css" />
     
@@ -45,6 +46,8 @@
           </div>
           <div class="navbar-text pull-right subnav">
             <a href="#canales">Canales</a>
+            <a href="#footer">Footer</a>
+
             
           </div>
         </div>
@@ -72,7 +75,9 @@
             <h1 class="page-header">Componentes Transversales</h1>
 
             <!-- canales de contacto -->
-            <div id="canales" class="container">
+            <h3 id="canales">Canales de atención</h3>
+
+            <div  class="container">
               <h2 class="canalesContacto__h2" aria-label="Canales de contacto">Nuestros Canales <br> de contacto</h2>
               <div class="btn_5cards-container canalesContacto__cards">
                 <a class="card1" aria-label="Chatea con nosotros" href="">               
@@ -122,9 +127,7 @@
 
               </div>              
             </div>
-
-
-            <pre><code data-language="css">
+            <pre style="margin-top: 50px;"><code data-language="css">
               <div class="btn_5cards-container canalesContacto__cards">
                 <a class="card1" aria-label="Chatea con nosotros" href="">               
                     <div class="btn_services-cardHeader">
@@ -172,6 +175,97 @@
                 </a>
 
               </div>
+            </code></pre>
+
+
+            <!-- footer -->
+            <h3 id="footer" style="margin-top: 80px;">Footer</h3>
+            <div class="container-fluid" style="padding: 0; margin: 0;">
+              <div class="footer" aria-label="Pie de página">
+                <div class="row">
+                  <div class="col-xs-12 col-md-4 footer__logo footer__line-right">
+                    <img width="200" src="https://www.gov.co/uploads/53cb9900-1f6d-4d95-81a1-02e02efbe3be.svg" alt="">
+                    <img width="90" src="https://www.gov.co/uploads/23c08fdb-7970-420c-a556-c3af1802ef58.svg" alt="">
+                  </div>
+                  <div class="col-xs-12 col-md-4 footer__central footer__line-right">
+                    <h4>Colpensiones</h4>
+                    <p>Sede Principal: Carrera 10 No. 72 - 33 Torre B Piso 11 Bogotá Cundinamarca</p>
+                    <p>Código Postal: 110231</p>
+                    <a href=""><p>Puntos de atención y horarios</p></a>
+                    <div class="row footer__redes-container">
+                      <div class="col-md-3 footer__redes"> <i class="fa fa-twitter footer__icon-circulo"></i><p>Twitter</p></div>
+                      <div class="col-md-3 footer__redes "> <i class="fa fa-instagram footer__icon-circulo"></i><p>Instagram</p></div>
+                      <div class="col-md-3 footer__redes"><i class="fa fa-facebook footer__icon-circulo"></i> <img src="" alt=""><p>Facebook</p></div>
+                      <div class="col-md-3 footer__redes"> <i class="fa fa-youtube footer__icon-circulo"></i><p>Youtube</p></div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-md-4 footer__right">
+                    <h4>Contacto</h4>
+                    <ul>
+                      <li>Teléfono Conmutador Bogotá: (58+1) 489 09 09</li>
+                      <li>Teléfono Conmutador Medellín: (58+4) 283 60 90</li>
+                      <li>Teléfono Conmutador BEPS Bogotá: (58+1) 487 03 00</li>
+                      <li>Línea Gratuita: 018000 41 09 09</li>
+                      <li>Línea de Bienestar: 018000 42 5555</li>
+                      <li>Línea Anticorrupción: 01800 51 8500</li>
+                      <li>Correo de notificaciones judiciales:</li>
+                      <li>notificacionesjudiciales@colpensiones.gov.co</li>
+                      <li>Correo: contacto@colpensiones.gov.co</li>
+                      <li>Política de seguridad de la información</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row" style="margin: 0;">
+                    <div class="col-xs-5 col-md-5 footer__separator-blue"></div>
+                    <div class="col-xs-5 col-md-5 footer__separator-green"></div>
+                    <div class="col-xs-2 col-md-2 footer__separator-red"></div>
+                </div>
+            </div>
+
+            <pre style="margin-top: 50px;"><code data-language="css">
+              <!-- Organizar dentro de la etiqueta footer segùn CMS -->
+              <div class="footer" aria-label="Pie de página">
+                <div class="row">
+                  <div class="col-xs-12 col-md-4 footer__logo footer__line-right">
+                    <img width="200" src="https://www.gov.co/uploads/53cb9900-1f6d-4d95-81a1-02e02efbe3be.svg" alt="">
+                    <img width="90" src="https://www.gov.co/uploads/23c08fdb-7970-420c-a556-c3af1802ef58.svg" alt="">
+                  </div>
+                  <div class="col-xs-12 col-md-4 footer__central footer__line-right">
+                    <h4>Colpensiones</h4>
+                    <p>Sede Principal: Carrera 10 No. 72 - 33 Torre B Piso 11 Bogotá Cundinamarca</p>
+                    <p>Código Postal: 110231</p>
+                    <a href=""><p>Puntos de atención y horarios</p></a>
+                    <div class="row footer__redes-container">
+                      <div class="col-md-3 footer__redes"> <i class="fa fa-twitter footer__icon-circulo"></i><p>Twitter</p></div>
+                      <div class="col-md-3 footer__redes "> <i class="fa fa-instagram footer__icon-circulo"></i><p>Instagram</p></div>
+                      <div class="col-md-3 footer__redes"><i class="fa fa-facebook footer__icon-circulo"></i> <img src="" alt=""><p>Facebook</p></div>
+                      <div class="col-md-3 footer__redes"> <i class="fa fa-youtube footer__icon-circulo"></i><p>Youtube</p></div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-md-4 footer__right">
+                    <h4>Contacto</h4>
+                    <ul>
+                      <li>Teléfono Conmutador Bogotá: (58+1) 489 09 09</li>
+                      <li>Teléfono Conmutador Medellín: (58+4) 283 60 90</li>
+                      <li>Teléfono Conmutador BEPS Bogotá: (58+1) 487 03 00</li>
+                      <li>Línea Gratuita: 018000 41 09 09</li>
+                      <li>Línea de Bienestar: 018000 42 5555</li>
+                      <li>Línea Anticorrupción: 01800 51 8500</li>
+                      <li>Correo de notificaciones judiciales:</li>
+                      <li>notificacionesjudiciales@colpensiones.gov.co</li>
+                      <li>Correo: contacto@colpensiones.gov.co</li>
+                      <li>Política de seguridad de la información</li>
+                    </ul>
+                  </div> 
+                </div>                
+              </div>
+              <div class="row" style="margin: 0;">
+                    <div class="col-xs-5 col-md-5 footer__separator-blue"></div>
+                    <div class="col-xs-5 col-md-5 footer__separator-green"></div>
+                    <div class="col-xs-2 col-md-2 footer__separator-red"></div>
+                </div>
+            
             </code></pre>
 
 
