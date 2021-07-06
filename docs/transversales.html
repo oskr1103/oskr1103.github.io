@@ -47,6 +47,8 @@
           <div class="navbar-text pull-right subnav">
             <a href="#canales">Canales</a>
             <a href="#footer">Footer</a>
+            <a href="#videoHeader">Video Header</a>
+
 
             
           </div>
@@ -269,6 +271,30 @@
             </code></pre>
 
 
+
+            <!-- video header -->
+            <h3 id="videoHeader" style="margin-top: 80px;">Video Header</h3>
+            <div class="container-fluid video__header-container" style="padding: 0; margin: 0;">
+              <video autoplay class="video___header" playsinline autoplay loop muted preload="auto">
+                <source src="../videos/home.mp4" type="video/mp4" />                <!-- incluir formato ogg y webm -->
+              </video>              
+              <div class="curve__dividers">
+                <img src="../img/dividersHeader.svg" alt="">
+              </div>
+            </div>
+
+
+            <pre style="margin-top: 50px;"><code data-language="css">
+              <div class="container-fluid video__header-container" style="padding: 0; margin: 0;">
+              <video autoplay class="video___header" playsinline autoplay loop muted preload="auto">
+                <source src="../videos/home.mp4" type="video/mp4" /> 
+                <!-- incluir formato ogg y webm -->               
+              </video>              
+              <div class="curve__dividers">
+                <img src="../img/dividersHeader.svg" alt=""> <!-- se usa divisor en svg con media query -->
+              </div>
+            </div>
+            </code></pre>
 
 
 

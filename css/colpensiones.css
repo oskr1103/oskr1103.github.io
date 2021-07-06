@@ -510,3 +510,61 @@ body {
   height: 5px;
   background-color: #ed2446;
 }
+
+/* video header */
+.video__header-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.video___header {
+  width: 100%;
+}
+
+.curve__dividers {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 30px;
+  margin: 0;
+}
+
+.curve__dividers img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1234px) {
+  .curve__dividers {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 15px;
+    margin: 0;
+  }
+}
+@media (max-width: 1082px) {
+  .curve__dividers {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    margin: 0;
+  }
+}
+@media (max-width: 990px) {
+  .curve__dividers {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: -40px;
+    margin: 0;
+  }
+}
+@media (max-width: 759px) {
+  .curve__dividers {
+    display: none;
+  }
+}
