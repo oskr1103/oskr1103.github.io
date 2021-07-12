@@ -149,6 +149,58 @@ background: transparent linear-gradient(270deg, #196a90 1%, #1f5da6 100%) 0% 0% 
               </div>
             </div>
 
+            <h2 class="page-header">Degradados Lineales - Menu</h2>
+            <h3>Menu principal azul</h3>
+            <div class="container-fluid menu-principal-azul" style="width: 100%; height: 70px;"></div>
+            <pre><code data-language="css">
+              .menu-principal-azul {
+                background: rgb(45, 68, 208);
+                background: linear-gradient(
+                  97deg,
+                  rgba(45, 68, 208, 1) 0%,
+                  rgba(14, 107, 212, 1) 76%,
+                  rgba(0, 126, 214, 1) 100%
+                );
+              }
+            </code></pre>
+            <h3>Menu principal verde</h3>
+            <div class="container-fluid menu-principal-verde" style="width: 100%; height: 70px;"></div>
+            <pre><code data-language="css">
+              /**En este agregue compatibilidad con IE6+ por la cantidad de colores en el degradado*/
+              .menu-principal-verde {
+                background: rgb(30, 95, 161);
+                background: -moz-linear-gradient(
+                  97deg,
+                  rgba(30, 95, 161, 1) 0%,
+                  rgba(23, 110, 136, 1) 17%,
+                  rgba(17, 121, 117, 1) 38%,
+                  rgba(13, 129, 103, 1) 49%,
+                  rgba(10, 133, 95, 1) 73%,
+                  rgba(10, 135, 93, 1) 100%
+                );
+                background: -webkit-linear-gradient(
+                  97deg,
+                  rgba(30, 95, 161, 1) 0%,
+                  rgba(23, 110, 136, 1) 17%,
+                  rgba(17, 121, 117, 1) 38%,
+                  rgba(13, 129, 103, 1) 49%,
+                  rgba(10, 133, 95, 1) 73%,
+                  rgba(10, 135, 93, 1) 100%
+                );
+                background: linear-gradient(
+                  97deg,
+                  rgba(30, 95, 161, 1) 0%,
+                  rgba(23, 110, 136, 1) 17%,
+                  rgba(17, 121, 117, 1) 38%,
+                  rgba(13, 129, 103, 1) 49%,
+                  rgba(10, 133, 95, 1) 73%,
+                  rgba(10, 135, 93, 1) 100%
+                );
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e5fa1",endColorstr="#0a875d",GradientType=1);
+              }
+            </code></pre>
+
+
 <script src="./js/rainbow-custom.min.js"></script>
         
 

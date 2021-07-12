@@ -568,3 +568,46 @@ body {
     display: none;
   }
 }
+
+/* Colores menu degradado */
+.menu-principal-azul {
+  background: rgb(45, 68, 208);
+  background: linear-gradient(
+    97deg,
+    rgba(45, 68, 208, 1) 0%,
+    rgba(14, 107, 212, 1) 76%,
+    rgba(0, 126, 214, 1) 100%
+  );
+}
+
+.menu-principal-verde {
+  background: rgb(30, 95, 161);
+  background: -moz-linear-gradient(
+    97deg,
+    rgba(30, 95, 161, 1) 0%,
+    rgba(23, 110, 136, 1) 17%,
+    rgba(17, 121, 117, 1) 38%,
+    rgba(13, 129, 103, 1) 49%,
+    rgba(10, 133, 95, 1) 73%,
+    rgba(10, 135, 93, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    97deg,
+    rgba(30, 95, 161, 1) 0%,
+    rgba(23, 110, 136, 1) 17%,
+    rgba(17, 121, 117, 1) 38%,
+    rgba(13, 129, 103, 1) 49%,
+    rgba(10, 133, 95, 1) 73%,
+    rgba(10, 135, 93, 1) 100%
+  );
+  background: linear-gradient(
+    97deg,
+    rgba(30, 95, 161, 1) 0%,
+    rgba(23, 110, 136, 1) 17%,
+    rgba(17, 121, 117, 1) 38%,
+    rgba(13, 129, 103, 1) 49%,
+    rgba(10, 133, 95, 1) 73%,
+    rgba(10, 135, 93, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e5fa1",endColorstr="#0a875d",GradientType=1);
+}
