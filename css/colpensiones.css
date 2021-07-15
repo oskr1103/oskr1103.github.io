@@ -709,7 +709,7 @@ body {
 }
 
 /**Estilos menu_canales*/
-
+/* este componente está construido para 9 hijos a medida que se requiera es agragr el div en el html y ajustar coordenadas x, y tomar en cuenta el eje 0 es en el X del icono cerrar + - según el caso */
 .menu_canales-item,
 .menu_canales-button {
   background: #ed2446;
@@ -846,15 +846,15 @@ body {
 }
 .menu_canales-open:checked ~ .menu_canales-item:nth-child(3) {
   transition-duration: 180ms;
-  transform: translate3d(-40.08361px, -95.99997px, 0);
+  transform: translate3d(0px, -100px, 0);
 }
 .menu_canales-open:checked ~ .menu_canales-item:nth-child(4) {
   transition-duration: 280ms;
-  transform: translate3d(90.9466px, -70.47586px, 0);
+  transform: translate3d(-100px, 0px, 0);
 }
 .menu_canales-open:checked ~ .menu_canales-item:nth-child(5) {
   transition-duration: 380ms;
-  transform: translate3d(95.9466px, 42.47586px, 0);
+  transform: translate3d(100px, 0px, 0);
 }
 .menu_canales-open:checked ~ .menu_canales-item:nth-child(6) {
   transition-duration: 480ms;
